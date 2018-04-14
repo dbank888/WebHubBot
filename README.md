@@ -35,10 +35,6 @@ Database: MongoDB
 * python quickstart.py
 
 
-## Run screenshots
-![](https://github.com/xiyouMc/PornHubBot/blob/master/img/running.png?raw=true)
-![](https://github.com/xiyouMc/PornHubBot/blob/master/img/mongodb.png?raw=true)
-
 ## Database description
 
 The table in the database that holds the data is PhRes. The following is a field description:
@@ -50,13 +46,6 @@ The table in the database that holds the data is PhRes. The following is a field
     image_url:       Video cover link
     video_duration:  The length of the video, in seconds
     quality_480p:    Video 480p mp4 download address
-
-## For Chinese
-
-* 关注微信公众号，学习Python开发
-
-<img src="https://github.com/xiyouMc/WebHubBot/blob/master/img/gongzhonghao.png?raw=true" width = "800" height = "400" alt="图片名称" align=center />   
-
 
 
 [py2x]: https://img.shields.io/badge/python-2.x-brightgreen.svg
@@ -71,3 +60,5 @@ The table in the database that holds the data is PhRes. The following is a field
 
 [license]: https://img.shields.io/badge/license-MIT-blue.svg
 [lic_file]: https://raw.githubusercontent.com/xiyouMc/WebHubBot/master/LICENSE
+
+
