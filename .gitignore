@@ -2,3 +2,5 @@
 *.DS_Store
 *.log
 *.out
+.idea
+.python-version

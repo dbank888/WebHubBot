@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 # Scrapy settings for pornhub project
@@ -21,10 +22,10 @@ CONCURRENT_REQUESTS = 20  # 默认为16
 # CONCURRENT_REQUESTS_PER_IP = 1
 REDIRECT_ENABLED = False
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'pornhub (+http://www.yourdomain.com)'
+# USER_AGENT = 'pornhub (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 DOWNLOADER_MIDDLEWARES = {
     "WebHub.middlewares.UserAgentMiddleware": 401,
@@ -34,8 +35,8 @@ DOWNLOADER_MIDDLEWARES = {
 #     "PornHub.pipelines.PornhubMongoDBPipeline": 403,
 # }
 
-FEED_URI=u'/Users/xiyouMc/Documents/pornhub.csv'
-FEED_FORMAT='CSV'
+FEED_URI = u'/Users/xiyouMc/Documents/pornhub.csv'
+FEED_FORMAT = 'CSV'
 
 DEPTH_PRIORITY = 1
 SCHEDULER_DISK_QUEUE = 'scrapy.squeues.PickleFifoDiskQueue'

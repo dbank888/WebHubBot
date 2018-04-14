@@ -1,6 +1,8 @@
-# encoding=utf-8
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import random
-from user_agents import agents
+from .user_agents import agents
 import json
 
 
